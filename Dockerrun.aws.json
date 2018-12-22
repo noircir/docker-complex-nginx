@@ -6,7 +6,7 @@
             "name": "client",
             "image": "7676ee/multi-client",
             "hostname": "client",
-            "essential": true
+            "essential": false
         },
         {
             "name": "server",
