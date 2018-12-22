@@ -35,7 +35,7 @@ after_success:
   - docker push 7676ee/multi-server
   - docker push 7676ee/multi-worker
 
-# deploy:
+deploy:
   provider: elasticbeanstalk
   region: us-east-2
   app: multi-docker
